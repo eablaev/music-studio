@@ -1,0 +1,23 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A modern music studio with synthesizers and mixing equipment.",
+      "imageUrl": "/images/hero-img.png",
+      "imageHint": "music studio"
+    },
+    {
+      "id": "founder-photo",
+      "description": "Portrait of the music school founder.",
+      "imageUrl": "/images/founder-photo.png",
+      "imageHint": "musician portrait"
+    },
+    {
+      "id": "logo",
+      "description": "Sound Circle Studio Logo",
+      "imageUrl": "/images/logo.png",
+      "imageHint": "logo"
+    }
+  ]
+}
