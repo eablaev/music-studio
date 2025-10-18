@@ -15,8 +15,8 @@ export default function ProgramPitchSection() {
           This is a chance to get in on the ground floor of a new and exciting way to learn music.
         </p>
         <div className="mt-10">
-          <Button asChild size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-primary">
-            <Link href="#contact">Become a Founding Member</Link>
+          <Button asChild size="lg" variant="outline" className="bg-transparent border-white text-white uppercase hover:bg-white hover:text-primary">
+            <Link href="https://forms.gle/BcBVBCgdWkqMG3jP6">Become a Founding Member</Link>
           </Button>
         </div>
       </div>

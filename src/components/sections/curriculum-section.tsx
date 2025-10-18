@@ -1,11 +1,11 @@
-import { BrainCircuit, Music, Rocket, ScreenShare, Users } from 'lucide-react';
+import { BrainCircuit, Music, Rocket, ScreenShare, Users, Laptop, Award } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const features = [
   {
     icon: <Music className="h-8 w-8 text-primary" />,
     title: 'From Practice to Passion',
-    description: 'We replace practice boredom with project-based learning. Kids create original songs, remixes, and beats that sound like the music they actually love.',
+    description: 'We replace practice boredom with project-based learning. Students create original songs, remixes, and beats that sound like the music they actually love.',
   },
   {
     icon: <BrainCircuit className="h-8 w-8 text-primary" />,
@@ -20,7 +20,7 @@ const features = [
   {
     icon: <Users className="h-8 w-8 text-primary" />,
     title: 'Safe, Social Collaboration',
-    description: 'Small group sessions give kids a chance to collaborate and make friends, using technology in a creative, productive way (not just gaming or scrolling).',
+    description: 'Small group sessions give students a chance to collaborate and make friends, using technology in a creative, productive way (not just gaming or scrolling).',
   },
   {
     icon: <ScreenShare className="h-8 w-8 text-primary" />,
@@ -28,7 +28,7 @@ const features = [
     description: 'Every term ends with a showcase: playlists, recordings, or performances parents can actually hear, share, and be proud of.',
   },
   {
-    icon: <Users className="h-8 w-8 text-primary" />,
+    icon: <Award className="h-8 w-8 text-primary" />,
     title: 'Learn from an Industry Insider',
     description: "Your child will learn from direct experience in the music industry, with a curriculum that's relevant, modern, and aligned with the real-world music landscape.",
   },

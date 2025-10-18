@@ -14,11 +14,11 @@ export default function HeroSection() {
           alt={heroImage.description}
           data-ai-hint={heroImage.imageHint}
           fill
-          className="object-cover"
+          className="object-cover  blur-sm"
           priority
         />
       )}
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/70" />
       <div className="relative z-10 flex h-full items-center justify-center text-center">
         <div className="container max-w-4xl text-white">
           <h1 className="font-headline text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
@@ -28,11 +28,11 @@ export default function HeroSection() {
             Led by a Berklee-trained musician, our school helps kids discover the joy of music through today’s tools — beats, remixes, and production.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Button asChild size="lg" variant="default">
-              <Link href="#contact">Get Started</Link>
+            <Button asChild size="lg" variant="default" className='bg-primary/50 border-2 border-primary'>
+              <Link href="#contact">GET STARTED</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white hover:text-primary">
-              <Link href="#curriculum">Learn More</Link>
+            <Button asChild size="lg" variant="outline" className="bg-white/10 text-white border-white hover:bg-white hover:text-primary">
+              <Link href="#curriculum">LEARN MORE</Link>
             </Button>
           </div>
         </div>
