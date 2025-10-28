@@ -5,7 +5,7 @@ export default function AboutSection() {
   const founderImage = PlaceHolderImages.find((img) => img.id === 'founder-photo');
 
   return (
-    <section className="py-24 pb-0 sm:py-32 sm:pb-12  bg-secondary">
+    <section id='about' className="py-24 pb-0 sm:py-32 sm:pb-12  bg-secondary">
       <div className="container">
         <div className="grid grid-cols-1 items-center gap-12 px-4 lg:grid-cols-2 lg:gap-24">
           <div className="relative  max-w-md mx-auto lg:max-w-none">
